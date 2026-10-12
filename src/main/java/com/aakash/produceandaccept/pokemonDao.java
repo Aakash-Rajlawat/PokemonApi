@@ -1,10 +1,10 @@
 package com.aakash.produceandaccept;
 
-import jakarta.xml.bind.annotation.XmlRootElement;
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 import lombok.Data;
 
 @Data
-@XmlRootElement
+@JacksonXmlRootElement
 public class pokemonDao {
 
     private String pokemonName;
